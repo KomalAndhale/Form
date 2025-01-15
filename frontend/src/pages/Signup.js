@@ -35,7 +35,7 @@ function Signup() {
         }
         
         try {
-            const url = "form-koey-komalandhales-projects.vercel.app";
+            const url = "http://localhost:3006/auth/signup";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
