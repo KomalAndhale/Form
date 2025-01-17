@@ -27,7 +27,7 @@ function Login() {
             return handleError('email and password are required')
         }
         try {
-            const url = "http://localhost:3006/auth/login";
+            const url = "https://form-koey.vercel.app/auth/login";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
