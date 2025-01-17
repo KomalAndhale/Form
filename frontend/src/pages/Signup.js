@@ -35,7 +35,7 @@ function Signup() {
         }
         
         try {
-            const url = "http://localhost:3006/auth/signup";
+            const url = "https://form-koey.vercel.app/auth/signup";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
