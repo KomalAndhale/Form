@@ -22,7 +22,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "http://localhost:3006/products";
+            const url = "https://form-koey.vercel.app/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
